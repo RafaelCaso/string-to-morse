@@ -28,9 +28,7 @@
 			<div>
 				<h2>{{ text }}</h2>
 				<audio class="audio" controls>
-					{% for file in audio %}
-					<source src="static/sound/{{ file }}">
-					{% endfor %}
+					<source src="{{ url_for('static', filename = 'output1.mp3') }}">
 				</audio>
 				<h2 class="audio hidden"> is this to the right?</h2>
 			</div>
