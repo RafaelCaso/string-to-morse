@@ -887,6 +887,32 @@ button,
       position: relative; } }
 
 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    float: right;
+    display: block;
+    padding: 8px;
+
+}
+
 .hidden {
   display: none;
+}
+
+#register h1 {
+  font-size: 3.25em;
+  margin: 0 0 0.55em 0; }
+
+.register {
+    align-content: left;
+    list-style-type: none;
+}
+
+.register-item {
+    margin: 0 0 0.55em 0;
 }

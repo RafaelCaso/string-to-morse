@@ -113,12 +113,12 @@
 					$audio = document.querySelector('.audio')
 					$encode = document.querySelector('.encode')
 
-					$encode.addEventListener('click', function() {$audio.classList.remove('hidden')});
+
 
 			// Bail if addEventListener isn't supported.
 				if (!('addEventListener' in $form))
 					return;
-
+                $encode.addEventListener('click', function() {$audio.classList.remove('hidden')});
 			// Message.
 				$message = document.createElement('span');
 					$message.classList.add('message');

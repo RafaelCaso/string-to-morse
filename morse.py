@@ -44,3 +44,13 @@ morse = {
     "9": "----.",
     "0": "-----",
 }
+
+
+def translate(txt_input):
+    output = ""
+    for letter in txt_input:
+        if letter.upper() not in morse:
+            pass
+        else:
+            output += morse[letter.upper()] + " "
+    return output
