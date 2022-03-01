@@ -8,6 +8,7 @@
 
 	"use strict";
 
+
 	var	$body = document.querySelector('body');
 
 	// Methods/polyfills.
@@ -110,15 +111,13 @@
 					$submit = document.querySelectorAll('#BLOCKsignup-form input[type="submit"]')[0],
 					$message;
 
-					$audio = document.querySelector('.audio')
-					$encode = document.querySelector('.encode')
+
 
 
 
 			// Bail if addEventListener isn't supported.
 				if (!('addEventListener' in $form))
 					return;
-                $encode.addEventListener('click', function() {$audio.classList.remove('hidden')});
 			// Message.
 				$message = document.createElement('span');
 					$message.classList.add('message');

@@ -35,4 +35,4 @@ def create_combined_mp3(data):
         except IndexError and TypeError:
             pass
 
-    return combined.export("/Users/adriancaso/PycharmProjects/string-to-morsecode/static/output1.mp3")
+    return combined.export("/Users/adriancaso/PycharmProjects/string-to-morsecode/static/output.mp3")
